@@ -505,9 +505,9 @@ jQuery(document).ready(function () {
     $("#slideshow h4:gt(0)").hide();
     setInterval(function () {
       $("#slideshow :first-child")
-        .fadeOut(1500)
+        .fadeOut(1000)
         .next("h4")
-        .fadeIn(1500)
+        .fadeIn(1000)
         .end()
         .appendTo("#slideshow");
     }, 4000);
