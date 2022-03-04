@@ -2836,7 +2836,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
     .s-header {
-        /* --logo-width : 8rem; */
+        --logo-width : 8rem;
         top          : var(--vspace-0_5);
     }
 
@@ -2856,7 +2856,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 600px) {
     .s-header {
-        /* --logo-width : 7.2rem; */
+        --logo-width : 8rem;
     }
 
     .s-header__logo {
@@ -2876,7 +2876,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 400px) {
     .s-header {
-        /* --logo-width : 6rem; */
+        --logo-width : 8rem;
     }
 
     .s-header__logo {
