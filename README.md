@@ -1,1 +1,1 @@
-"# Intelectum.github.io" 
+# Intelectum.github.io
