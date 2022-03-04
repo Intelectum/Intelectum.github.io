@@ -2860,7 +2860,7 @@ img.u-pull-left {
     }
 
     .s-header__logo {
-        left : calc(6vw + var(--gutter));
+        /* left : calc(6vw + var(--gutter)); */
     }
 
     .s-header__social {
@@ -2880,7 +2880,7 @@ img.u-pull-left {
     }
 
     .s-header__logo {
-        left : calc(6vw + .4rem);
+        /* left : calc(6vw + .4rem); */
     }
 
     .s-header__social {
