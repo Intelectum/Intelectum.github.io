@@ -2754,7 +2754,8 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-header {
-    --logo-width : 9.6rem;
+    /* --logo-width : 9.6rem; */
+    --logo-width : 10em;
     z-index      : 100;
     width        : 100%;
     position     : absolute;
@@ -2775,8 +2776,12 @@ img.u-pull-left {
     z-index   : 101;
     transform : translate(0, -50%);
     position  : absolute;
-    top       : 50%;
-    left      : var(--gutter);
+    top       : 100%;
+    /* top       : 50%; */
+    /* left      : var(--gutter); */
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .s-header__logo a {
